@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cimg/base:current
-    resource_class: medium
+    resource_class: small
     steps:
       - run: echo "CircleCI Server Run"
 workflows:
