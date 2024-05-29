@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: cimg/base:current
     steps:
-      - run: echo "CircleCI Server Run"
+      - run: echo "CircleCI Server Run2"
 workflows:
   build-workflow:
     jobs:
